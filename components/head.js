@@ -35,12 +35,13 @@ const Head = props => (
         <meta name="twitter:label1" content="Testimonial #1:" />
         <meta
             name="twitter:data1"
-            content={`"(Justin is) definitely the smartest person I know" - CTO of Remine`}
+            content={`"He's super handsome" - His mom`}
         />
+
         <meta name="twitter:label2" content="Testimonial #2:" />
         <meta
             name="twitter:data2"
-            content={`"He's super handsome" - His mom`}
+            content={`"(Justin is) definitely the smartest person I know" - CTO of Remine`}
         />
 
         <meta property="og:image" content={props.ogImage || defaultOGImage} />
