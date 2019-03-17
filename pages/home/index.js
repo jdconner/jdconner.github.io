@@ -54,7 +54,7 @@ export default Home;
 const titles = [
     "Front-end Web Architect",
     "Sr. Full-stack Web Developer",
-    "Sr. JavaScript Developer",
+    // "Sr. JavaScript Developer",
     "Feature Team Lead",
     "Dev Manager",
 ];
