@@ -14870,7 +14870,7 @@ module.exports = routes().add('about').add('blog').add('notfound', '/*');
 
 /***/ }),
 
-/***/ 2:
+/***/ 3:
 /*!**********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fabout&absolutePagePath=%2FUsers%2Fjdconner%2FPersonal%2Fnext-website%2Fpages%2Fabout%2Findex.js ***!
   \**********************************************************************************************************************************************/
@@ -14893,5 +14893,5 @@ module.exports = dll_9c75acfe53428ad7a9fa;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]));;
+},[[3,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=about.js.map
