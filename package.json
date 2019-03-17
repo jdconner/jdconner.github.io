@@ -1,0 +1,22 @@
+{
+    "name": "jc-master-website",
+    "scripts": {
+        "dev": "next",
+        "build": "next build",
+        "start": "next start",
+        "deploy": "next build && next export && touch out/.nojekyll && push-dir --dir=out --branch=master --allow-unclean --verbose --remote=github-io",
+        "create:cname": "touch out/CNAME && echo \"justinconner.dev\" >> out/CNAME"
+    },
+    "dependencies": {
+        "next": "8.0.1",
+        "next-routes": "^1.4.2",
+        "react": "16.8.2",
+        "react-dom": "16.8.2",
+        "react-loadable": "^5.5.0",
+        "react-social-icons": "^4.1.0",
+        "styled-components": "^4.1.3"
+    },
+    "devDependencies": {
+        "babel-plugin-styled-components": "^1.10.0"
+    }
+}
